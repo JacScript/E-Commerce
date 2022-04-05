@@ -67,7 +67,7 @@ const Navbar = () => {
             <Search style={{color:"black", fontSize:"16px"}}/>
           </SearchContainer>
         </Left>
-        <Center><Logo>AFRICAN BOY</Logo> </Center>
+        <Center><Logo>JAC STORE</Logo> </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
