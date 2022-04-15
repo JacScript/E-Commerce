@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import pc from "../img/clothes.jpg"
+import { mobile } from "../responsive";
 
 
 
@@ -20,6 +21,7 @@ const Wrapper = styled.div`
    width: 40%;
    padding: 20px;
    background-color: white;
+   ${mobile({width: "75%"})}
 `;
 
 const Title = styled.h1`
